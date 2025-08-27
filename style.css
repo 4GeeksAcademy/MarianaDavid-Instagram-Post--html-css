@@ -1,5 +1,40 @@
-    .post {
-        background-color: rgb(255, 255, 255);
-        width: 450px;
-        height: 450px;
-    }
+  .post {
+      background-color: rgb(255, 255, 255);
+      width: 450px;
+      height: 450px;
+  }
+
+  .post-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .user-info {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+  }
+
+  .user-info i {
+      font-size: 32px;
+  }
+
+  .user-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .post-body {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      font-size: 20px;
+  }
+
+  .post-content {
+      padding: 0 12px 12px 12px;
+      font-size: 14px;
+  }
