@@ -1,7 +1,7 @@
   .post {
       background-color: rgb(255, 255, 255);
       width: 450px;
-      height: 450px;
+      margin: auto;
   }
 
   .post-header {
@@ -38,3 +38,5 @@
       padding: 0 12px 12px 12px;
       font-size: 14px;
   }
+
+  body {background-color: black;}
